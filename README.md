@@ -3,11 +3,12 @@
 ## Overview
 The Twitter Scrape applet was designed by Beta Group from the DSI11 NYC cohort (Max Mazel, Najiha Boosra, and Adam Cohen) to automate multiple Twitter queries to expedite data collection.
   
-The applet runs as a single line, 'get_dataset()' with no input, and either pulls pre-defined global dictionaries and lists, or generates all required variables internally.
+The applet is called as a single line, 'get_dataset()' with no input, and either pulls a pre-defined dictionary or list, or generates all required variables internally.
   
 To use the applet, the user **MUST** define either of the following:  
   
-1) A list called "query_list" composed of strings (a sample is included in the code cell) OR  
+1) A list called "query_list" composed of strings (a sample is included in the code cell)  
+**OR**  
 2) A dictionary called "custom_params" in the same format as the sample in the code cell.  
   
 The applet will otherwise prompt you for any additional information.  
