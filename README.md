@@ -12,11 +12,15 @@ To use the applet, the user **MUST** define either of the following:
   
 The applet will otherwise prompt you for any additional information.  
   
-It will automatically generate the export directory for the .csv if you opt to export. **NOTE:** It does not check if the file already exists, and will overwrite old scrapes!
+It will automatically generate the export directory for the .csv if you opt to export.
 
 ## CHANGE LOG:
+### V.1.03:
+Revised input order when function is initally run, corrected added file overwrite checks and flow. 
+
 ### V.1.02:
 Turned off limiters used for faster debugging.
+![](https://media.giphy.com/media/hokMyu1PAKfJK/giphy.gif)
 
 ### V.1.01:  
 Simplified some loops and corrected a typo in the output dataframe.  
