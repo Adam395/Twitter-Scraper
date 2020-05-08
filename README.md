@@ -23,7 +23,7 @@ Optimized master function to run through fewer if-else statements and not presen
 Added custom date configuration switch and support for multiple custom start points in parameter dictionary.
 
 ### V.1.03:
-Revised input order when function is initally run, corrected added file overwrite checks and flow. 
+Revised input order when function is initally run, added file overwrite checks and flow. 
 
 ### V.1.02:
 Turned off limiters used for faster debugging.
