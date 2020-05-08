@@ -15,13 +15,18 @@ The applet will otherwise prompt you for any additional information.
   
 It will automatically generate the export directory for the .csv if you opt to export.
 
-## CHANGE LOG:
+## CHANGE LOG:  
+## V.1.05:  
+Optimized master function to run through fewer if-else statements and not present prompts in illogical order. Query_start output column is now a datetime object instead of a string.
+  
+### V.1.04:  
+Added custom date configuration switch and support for multiple custom start points in parameter dictionary.
+
 ### V.1.03:
 Revised input order when function is initally run, corrected added file overwrite checks and flow. 
 
 ### V.1.02:
 Turned off limiters used for faster debugging.
-![](https://media.giphy.com/media/hokMyu1PAKfJK/giphy.gif)
 
 ### V.1.01:  
 Simplified some loops and corrected a typo in the output dataframe.  
@@ -30,4 +35,4 @@ Simplified some loops and corrected a typo in the output dataframe.
 Initial implementation.  
   
 ## Special Thanks
-Danielle Medellin of DSI11 NYC, who implemented the custom parameter dictionary code and provided substantial testing help.
+Danielle Medellin of DSI11 NYC, who implemented the inital version of the custom parameter dictionary code and provided substantial testing help.
