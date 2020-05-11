@@ -13,8 +13,10 @@ To use the applet, the user **MUST** define either of the following:
   
 The applet will otherwise prompt you for any additional information.  
   
-It will automatically generate the export directory for the .csv if you opt to export.
-
+It will automatically generate the export directory for the .csv if you opt to export.  
+  
+Please note that the underlying library that this function runs on, twitterscraper, is an inefficient scrape tool as it does not use Twitter's API (thus not requiring you contact them for a Developer API key), and our implementation of it runs in series, not in parallel. Large parameter dictionaries will take a long time to run though.  
+  
 ## CHANGE LOG:  
 ## V.1.05:  
 Optimized master function to run through fewer if-else statements and not present prompts in illogical order. Query_start output column is now a datetime object instead of a string.
